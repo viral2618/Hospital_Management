@@ -90,4 +90,4 @@ while True:
 
 df=pd.DataFrame(Data)
 df.to_excel("save.xlsx",index=False)
-print("\n✅ Data saved to 'save.xlsx' successfully.")
+print("\n Data saved to 'save.xlsx' successfully.")
