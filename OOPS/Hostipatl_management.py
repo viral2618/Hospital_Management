@@ -4,7 +4,7 @@ import os
 
 Data=list()
 
-# Load existing Excel data if file exists
+
 if os.path.exists("save.xlsx"):
     df_existing = pd.read_excel("save.xlsx")
     Data = df_existing.to_dict(orient="records") 
